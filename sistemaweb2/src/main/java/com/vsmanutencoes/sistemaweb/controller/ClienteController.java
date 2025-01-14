@@ -28,7 +28,7 @@ public class ClienteController {
     }
 
     // Exibir formulário de novo cliente
-    @GetMapping("/new")
+    @GetMapping("/newç")
     public String novoClienteForm(Model model) {
         model.addAttribute("cliente", new Cliente());
         return "cliente-form";
